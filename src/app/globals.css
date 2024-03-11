@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --couresl-bg: rgba(11, 14, 108, 0.9);
+  --page-bg: rgba(10, 14, 78, 0.7);
+  --overlap: rgba(241, 245, 251, 0.5);
+  --bodyBg: rgba(239, 237, 234, 0.993);
+  --newsBg: rgba(240, 237, 233, 0.73);
+  /* --inner-box: rgba(244, 87, 46, 0.8); */
+  --inner-box: rgba(244, 87, 46, 0.8);
+  --inner-text: rgb(52, 95, 137);
+  --news-img-overlap: rgba(52, 95, 137, 0.4);
+  --inner-box-text: rgba(208, 57, 19, 1);
+  --light: #f1f8ff;
+  --dark: #0f172b;
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --foreground-rgb: 255, 255, 255;
+    --background-start-rgb: 0, 0, 0;
+    --background-end-rgb: 0, 0, 0;
+  }
+}
+
+body {
+  color: white;
+  background: var(--bodyBg);
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}

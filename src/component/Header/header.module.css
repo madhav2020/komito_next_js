@@ -1,0 +1,38 @@
+.main {
+  position: fixed;
+  color: white;
+  display: flex;
+  gap: 15px;
+  text-align: center;
+  justify-content: space-around;
+  padding: 5px;
+  width: 100%;
+  background-color: rgba(0, 0, 0, 0.5); /* Transparent black background */
+  top: 0;
+  z-index: 9999;
+}
+.navbar {
+  display: flex;
+  font-size: 1.1em;
+  gap: 35px;
+  text-align: center;
+  justify-content: space-evenly;
+  width: fit-content;
+  margin-top: 2px;
+  text-transform: capitalize;
+  cursor: pointer;
+  color: var(--couresl-bg);
+}
+
+.nav_item {
+  cursor: pointer;
+}
+
+.active {
+  text-decoration: underline;
+  color: var(--couresl-bg);
+}
+
+.logo {
+  width: 105px;
+}

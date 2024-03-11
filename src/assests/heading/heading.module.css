@@ -1,0 +1,27 @@
+.heading {
+  position: relative;
+  z-index: 999;
+  justify-content: start;
+  align-items: start;
+  text-align: start;
+  margin-left: 10%;
+  color: rgba(11, 14, 108, 0.9);
+  color: var(--couresl-bg);
+}
+
+.heading span {
+  color: orangered;
+  font-size: 25px;
+}
+/* 
+.heading > h4 {
+  font-size: 16px;
+  text-transform: uppercase;
+  font-weight: bold;
+} */
+.heading > h2 {
+  font-size: 36px;
+  width: 55%;
+  font-weight: 800;
+  text-transform: capitalize;
+}
